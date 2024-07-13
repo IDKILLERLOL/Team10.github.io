@@ -1,0 +1,313 @@
+
+<!-- index.html -->
+<!DOCTYPE html>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+        font-family: 'Verdana';
+}
+    header {
+        padding: 10px 0;
+        background-color: #4CAF50;
+        color:white;
+        text-align: center;
+}
+.footer {
+  margin: 10 auto;
+  text-align: center;
+  padding: 50px 0;
+  background-color: #4CAF50;
+ color:#4CAF50;
+}
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+            nav ul li a {
+                color: white;
+                text-decoration: none;
+            }
+
+    main {
+        padding: 20px;
+    }
+label{
+margin-left: 15px;
+}
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Show more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .0em;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
+
+/* Other style */ 
+body {
+  padding: 2%;
+}
+
+p {
+  padding: 2%;
+}
+</style>
+
+
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable Tech</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="padding:0%">
+    
+    <header>
+        <p>Sustainable Tech Solutions </p>
+    </header>
+    <main>
+        <h1>Welcome to Sustainable Tech</h1>
+        
+    </main>
+</body>
+</html>
+
+<!-- about.html -->
+<!DOCTYPE html >
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Sustainable Tech</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main  style="margin-left:50px; margin-right:50px">
+        <h1>About Sustainable Tech</h1>
+        <p>Our mission is to promote the use of technology to create a sustainable world.</p>
+        <section>
+            <h2>Renewable Energy</h2>
+            <p>Renewable energy sources such as solar and wind are essential for reducing our carbon footprint.</p>
+        </section>
+        <section>
+            <h2>Smart Agriculture</h2>
+            <p>Technologies like precision farming and IoT devices help optimize resource use and increase yields.</p>
+        </section>
+        <section>
+            <h2>Waste Management</h2>
+            <p>Innovations in waste management, including recycling technologies and smart waste bins, are crucial for minimizing waste.</p>
+        </section>
+        <section> 
+	<h2>Green Tech: Circular Economy Solutions and Reduced Carbon Emissions</h2>
+	<p>Will technology innovation save the planet? As the climate crisis continues and target years loom, scientists and engineers <br> are working together to bring new solutions for energy storage and usage while contributing to a circular economy. </p><h2>
+	     <br> Here are 10 green technology innovations that leverage natural resources in a circular fashion: </h2>
+        </section>
+    </main><br><br>
+<div style="margin-left 15px; margin-right=:15px">
+  <input type="checkbox" class="read-more-state" id="post-1" />
+
+  <p class="read-more-wrap"><b style="font-size:23px"> Here are 10 green technology innovations that leverage natural resources in a circular fashion:</b><span class="read-more-target">
+	
+	<br><b style="font-size:23px">  10. Biomimicry  </b><br>
+	Mimicking plants and the natural environment is a method of sustainability that is only dreamt of. 
+	Scientists are working to capture the regenerative functions of plants and animals, similar to 
+	healing a wound or sealing a cut made when pruning a plant. 
+	This technology could be used in 
+	fibres to enable cuts to patch up minor holes and tears. 
+
+	
+
+	<br><b style="font-size:23px">9. Molten salt energy storage  </b><br>
+	Heat is one way in which energy can be stored, meeting a gap in the energy sector that must be filled to reach a renewable energy future. It has been noticed that salt has particularly good characteristics for heat storage, making it a great base for capturing and holding energy. 
+	
+
+	<br><b style="font-size:23px">   8. Artificial photosynthesis   </b><br>
+Speaking of mimicking plants, scientists and technologists are working together to mimic the effects of photosynthesis through technology. The solutions are expected to amalgamate both sunlight and carbon dioxide to create usable energy—a form of carbon capture that will provide further resources. 
+	
+	<br><b style="font-size:23px">   7. Smart meters   </b><br>
+While they don’t actively reduce emissions, smart meters installed in homes allowed consumers to reduce their energy consumption, which is an indirect way of reducing overall housing emissions. Individuals are able to save on their household bills while companies have more energy in the pipeline to supply to other buildings. 	
+
+	 <br><b style="font-size:23px">  6. Carbon capture and storage    </b><br>One of the most innovative solutions for eliminating atmospheric carbon dioxide, carbon sequestration, is going beyond human efforts to plant more trees and reduce carbon output. New technologies will be leveraged in years to come to actively remove carbon emissions from the atmosphere. However, according to the International Energy Agency (IEA), current carbon capture alone will not be enough to deliver the 1.7 billion tonnes of activity required. 
+
+	 <br><b style="font-size:23px">  5. Electric vehicle propulsion   </b><br>
+One of the most visible forms of renewable technology is electric vehicle (EV) propulsion. Range anxiety plays a role in the adoption of EVs as the current charging infrastructure and energy grids are not capable of supporting a fully-electric future, yet. 
+	
+
+	<br><b style="font-size:23px">   4. Nuclear energy technology   </b><br>
+Although controversial based on its potential to disrupt cities (an example being the Chernobyl nuclear reactor), technology is being developed to make the most of nuclear materials to produce clean energy at scale. Current technicians are only able to utilise uranium supplies to around 1% of their full potential, making nuclear a contender for widespread green energy. 
+	
+
+	<br><b style="font-size:23px">   3. Waste-water electricity generator   </b><br>
+The circular economy can be applied beyond recycling man-made materials. Oregon State University developed a hybrid electricity generator, which uses microbial fuel cells and reverse electrodialysis. These technologies combined enable the use of waste water to create electricity. Alongside the solutions contribution to mains grid power generation, the technology is also capable of powering the treatment of water as it comes full circle. 
+                
+
+	<br><b style="font-size:23px">   2. Recycled plastic road resurfacing   </b><br>
+In 2021, Coca-Cola announced its road surfacing project in Pakistan as it encourages a circular economy of waste materials. Plastic-based road materials have been adopted as an initiative that not only utilises recycled plastic bottles, but also develops in the community in the surrounding area. 
+	
+
+	<br><b style="font-size:23px">   1. Green Architecture   </b><br>
+Due to the sheer scale of the built environment, difficulties arise around the sustainability of urban living. As buildings are getting taller and cities more compact, innovation is taking place to ensure that new buildings meet climate requirements, but are also capable of generating energy, sequestering carbon, and fitting aesthetically within local landscapes. Initiatives also consist of planted roofs and walls, adding to the carbon reduction footprint. 
+		
+</span></p>
+  
+  <label for="post-1" class="read-more-trigger"></label>
+</div>
+
+
+
+
+
+<div>
+  <input type="checkbox" class="read-more-state" id="post-2" />
+
+  <p class="read-more-wrap"><b style="font-size:23px"> Here are 10 green technology innovations that leverage natural resources in a circular fashion:</b><span class="read-more-target">
+	<img src="https://www.sustainabilitydegrees.com/wp-content/uploads/mechanical-bee-225x300.jpg" alt=" Image loading error!" style="float:right; width: 180px; height: 240px; padding: 15px 15px 15px 15px">
+	<br><b style="font-size:23px">  5. Android Bees  </b><br>Bees have been only one of many important niche species that have been impacted by climate change, but they have been hit hard—ABC reported a 40 percent decline in honey bee populations in the winter of 2018. Their critical role in plant pollination threatens to unleash cascading effects on other ecological pressure points that can’t really take much more stress right now.
+While preserving bee populations is obviously the best solution, to prevent the failure cascade from occurring, some researchers envision a high-tech stopgap: robot bees!
+It may sound like the premise for a low-budget horror film, but advances in drone technology and artificial intelligence make it at least theoretically possible for swarms of autonomous micro-drones to handle pollination tasks in areas where bee populations have been decimated. Efforts at Harvard and the Warsaw University of Technology have shown promise, with the WUT B-droid successfully pollinating plants in a 2016 test.
+
+
+	
+
+	<br><b style="font-size:23px">4. Recycled Desert Planting Device  </b><br>
+	<img src="https://www.sustainabilitydegrees.com/wp-content/uploads/greenhouse-in-desert-300x213.jpg" alt=" Image loading error!" style="float:left; width: 300px; height: 223px; padding: 15px 15px 15px 15px">
+
+	The Groasis Waterboxx mixes several sustainability goals in one. With global temperatures increasing and fresh water shortages looming in many parts of the world, desertification is a real challenge to crop growth and food supply.
+The Waterboxx is an “intelligent bucket” that allows crops to be grown in it with 90% less water than traditional methods. The box is a plant cocoon that uses capillary drip irrigation technology to maximize efficient use of water for trees and other plants. It’s made from recycled polypropylene, and can itself be re-used up to ten times. The cost is approximately $2.50 per bucket, and the survival rate of plants using the box is over 90%.
+
+<br><br>
+	<br><br><b style="font-size:23px">   3. Plastic Made From Greenhouse Gas  </b><br>
+<img src="https://www.sustainabilitydegrees.com/wp-content/uploads/pollution-vs-green-300x203.jpg" alt=" Image loading error!" style="float:right; width: 300px; height: 215px; padding: 15px 15px 15px 15px">
+
+The metaphor is usually “killing two birds with one stone” but in this case, it may be “saving millions of birds with clean air.” Not quite as catchy, but a lot more sustainable, a product called AirCarbon is being developed that pulls greenhouse gases out of the air to develop liquid polymer that can be made into plastic pellets.
+Not only does this bypass the traditional oil-based process for developing plastics, decreasing fossil fuel demand, but it also actively sequesters dangerous greenhouse gases like methane along the way. The bio-reactor that the process is being developed with so far appears to be nine times more efficient than traditional conversion processes… which could make the plastic development process price-competitive in its own right, even before accounting for the environmental benefits.
+	
+	<br><b style="font-size:23px">   2. Automated Ocean Trash Skimming   </b><br>
+<img src="https://www.sustainabilitydegrees.com/wp-content/uploads/plastics-in-ocean-300x200.jpg" alt=" Image loading error!" style="float:left; width: 360px; height: 235px; padding: 15px 15px 15px 15px">
+
+With our oceans being inundated with both plastics and other non-biodegradable slough from human civilization, there have been a host of projects in the works to essentially sieve trash from our oceans. But one of the most elegant and efficient is the Seabin.
+By all appearances, it’s little more than a semi-submerged bucket – which can be installed in any area with relatively calm, flat water – but the Seabin is actually a filtering device for garbage and pollutants. With the lip of the bin just below the water and a pump hooked to the bottom, floating trash and surface pollutants are naturally sucked into the bin, and fresh water circulated back out. With oil pads installed, it can even catch fuel spills. And in all cases, it’s perfect for catching everything from plastic bags to cigarette butts and floating bottles.
+The project is still in development, with micro-plastics and fibers on the goal sheet for the next filtration level.
+
+	 <br><b style="font-size:23px">  1. Eco-friendly River Plastic Strainer </b><br>
+<img src="https://www.sustainabilitydegrees.com/wp-content/uploads/waterfall-cuba-300x200.jpg" alt=" Image loading error!" style="float:right; width: 600px; height: 396px; padding: 15px 15px 15px 15px">
+
+Speaking of keeping the oceans clean, it’s been clear for a long time that one of the major routes for plastics to enter oceanic ecosystems has been through streams and rivers. All waters return to the sea via those paths eventually, and the tendency for people to develop the shores of those waterways makes them inevitable repositories for plastic waste that are carried along for the ride.
+While skimmers of the Seabin variety are great for removing that waste, it’s much better to avoid letting it get out to sea in the first place. It’s been a challenge to develop solutions that can allow free passage of both fish and human traffic along rivers while keeping the trash from enjoying a free ride out with them. But a Dutch inventor has come up with an eco-friendly barrier that can block up to eighty percent of plastics and other types of trash from being swept out to sea, while still allowing ships and fish the ability to move freely.
+The Great Bubble Barrier is a simple concept: a simple hollow tube with holes punched in it is installed on the river bottom, diagonally to the flow of water. Like a fish tank aerator, air is pumped through the tube and bubbles are created from the holes, in a sufficient density to sweep submerged and semi-submerged garbage to the surface along with them. Riding the current and the bubble curtain, the diagonal slants down into a catchment system at the riverside, where the garbage is removed. Meanwhile, fish and boats pass through the bubble curtain without issue.
+While technology has created many of our modern environmental sustainability issues, technology also has the means to deliver new solutions to those problems. Experts with the right kind of education and open minds will continue to innovate until sustainability becomes a fully engrained way of life.
+
+<br>
+</span></p>
+  
+<label for="post-2" class="read-more-trigger"></label>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<b><p style= "font-size: 30px; margin-left: 15px; margin-right:0px; ">
+MagellanX is a company oriented with sustainable solutions created using modern technology, here are some of its solutions:
+</p></b>
+
+<div>
+  <input type="checkbox" class="read-more-state" id="post-3" />
+
+  <p class="read-more-wrap"><b style="font-size:23px">3 Great Examples of Sustainable Technology</b><span class="read-more-target">
+<b style="font-size:23px">   3. SOL-X: Digitalising Workers’ Health and Safety  </b><br>
+
+
+Digitalisation and automation can bring both safety and efficiency. With Control Of Work, organisations can make the switch to a digital Permit to Work system. An average vessel uses 39,000 sheets of paper annually for PTW-related tasks. By eliminating the physical paperwork, ships can operate more sustainably on an environmental and operational level, and save 4600 man hours annually on a streamlined work process.
+
+Additionally, a major part of sustainability is keeping people in mind. It’s necessary for organisations to avoid putting people at risk and impacting lives negatively. There’s a level of social responsibility that companies have to meet. As such, health and safety is the responsibility of employers. Using SOL-X’s Wearable SmartWatch systems, employees can be safeguarded reliably, fulfilling these obligations.
+
+By integrating Industrial Internet of Things (IIoT) and artificial intelligence (AI), SOL-X enhances regulatory compliance workflows, incident management capabilities, and near real-time data monitoring. This empowers workers to make informed decisions, reduces risks, and fosters a safer and more sustainable work environment.	
+	<br><b style="font-size:23px">   2. PROPELLER: Transforming Fleet Management   </b><br>
+
+Effective inventory management is essential for reducing waste and optimising resource utilisation.
+
+Magellan X’s PROPELLER solution utilises mobile and Real-Time Location System (RTLS) technology, combined with mobile scanning capabilities, IIoT tracking, and RFID radar technology to streamline inventory management processes.
+
+With PROPELLER, organisations can achieve near real-time inventory visibility at their fingertips, significantly reducing the time spent on stock reconciliation and minimising the risk of misplaced or missing parts. Accurate inventory views, ERP synchronisation, and unique IDs linked to all spares reduce excess stock and ensure complete accountability and streamlined operations. Our AI-powered analytics can also find opportunities for bulk orders and inventory aggregation, reducing the need for excess trips and cutting down on emissions.
+
+By providing such near real-time inventory data, actionable insights, and smart procurement features, PROPELLER helps organisations minimise waste, improve efficiency, and adhere to sustainability best practices.
+	 <br><b style="font-size:23px">  1. ecoMax: The Best of Industrial Decarbonisation </b><br>
+
+As the world grapples with the challenges of climate change, industrial decarbonisation plays a critical role in achieving global emission reduction targets. Reducing carbon dioxide emissions and fuel consumption is paramount to achieving net-zero goals. 80% of shipowners agree that net-zero-emission vessels are a necessary development, and Magellan X’s ecoMax solution can help owners move towards this goal.
+
+Our solutions tackle this challenge using AI, by enabling businesses to analyse their emissions across various industrial sectors. It is designed to enhance environmental management practices and reduce their carbon footprint. By leveraging data-driven analytics and reporting capabilities, ecoMax enables businesses to measure, monitor, and report on their greenhouse gas (GHG) emissions accurately.
+
+In particular, ecoMax enhances operational efficiency by providing a single-page interface for self-diagnostic asset monitoring. The system offers automated reporting, advisory services, and optimisation analysis, empowering organisations to benchmark their performance, identify areas for improvement, and streamline operations. Furthermore, ecoMax’s tamper-proof carbon emissions certification ensures data integrity and compliance with environmental regulations.
+<br>
+</span></p>
+  
+<label for="post-3" class="read-more-trigger" class="right"></label>
+</div>
+
+<br><br><br>
+
+<br><br><br>
+<br><br><br>
+<br><br><br>
+
+</body>
+<body>
+<footer  style="text-align: center">
+<p class="footer"> 
+<a href="https://www.instagram.com/sustainabletechsolutions?igsh=c2V2d2QyNGoyeWR5">
+Connect With Us On Instagram
+</a>
+
+</p>
+
+</footer>
+</body>
+</html>
+
+
+
